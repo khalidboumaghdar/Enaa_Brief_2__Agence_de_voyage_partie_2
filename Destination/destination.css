@@ -85,3 +85,18 @@
 }
 
 
+.card .btn-primary {
+  background-color: rgb(236, 121, 6); 
+  border-color:rgb(236, 121, 6); 
+  color: white;
+}
+.tswira {
+background-image: url(image/milad-alizadeh-JibMa0FbyHw-unsplash-scaled.jpg);
+height: 80vh;
+width: 100%; 
+background-size: cover; 
+background-position: center; 
+display: flex;
+justify-content: center; 
+align-items: center; 
+}
