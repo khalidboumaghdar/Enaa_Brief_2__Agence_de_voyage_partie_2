@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    background-color: #f9e3c9; 
+    padding: 10px 20px; 
+  }
+
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+
+  }
+
+  .navbar li {
+    margin: 0 15px;
+  }
+
+  .navbar a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+    font-weight: bold; 
+  }
+
+  .navbar a:hover {
+    color: rgb(254, 254, 254);
+  }
+  button{
+
+    border: none;
+    background-color: #F28555;
+    border-radius: 23px;
+    height: 40px;
+    width: 135px;
+    color: #ffffff;
+    
+    }
+main {
+    display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: #F28555;
+        border-radius: 6%;
+        height: 87vh;
+        width: 70%;
+        margin-left: 189px;
+        margin-top: 59px;
+        margin-bottom: 74px;
+
+    
+    
+}
+.information{
+    background-color: #ffffff;
+    margin: 20% 7%;
+    padding: 50px;
+    height: 296px;
+    width: 90%;
+    border-radius: 42px;
+    box-shadow: 10px 10px;
+    
+}.information input[type="email"]{
+    padding: 14px;
+    display: block;
+    margin-top: 26px;
+    border: none;
+    background-color: #FFE9DE;
+    border-radius: 20px;
+    width: 66%;
+   
+
+}
+.information input[type="password"]{
+    padding: 14px;
+    display: block;
+    margin-top: 20px;
+    border: none;
+    background-color: #FFE9DE;
+    border-radius: 20px;
+    width: 66%;
+   
+    
+}#motdepass{
+    margin-top: 13px;
+    font-family: cursive;
+}
+#motdepass a{
+    text-decoration: none;
+    color: #000;
+    
+}.information button{
+    margin-top: 45px;
+    margin-left: 16px;
+}.information h3{
+    font-family: sans-serif;
+}.welcome h3{
+    color: #fff;
+        font-family: sans-serif;
+        padding-left: 191px;
+        width: 113%;
+        font-size: 45px;
+        margin-top: 13%; 
+
+}.navbar .sidebar{
+    display: none; 
+} 
+
+
+   
+
+@media screen and (max-width: 600px) {
+   
+    .navbar .item{
+        display: none;
+    }    .navbar img {
+        width: 273px;
+    } .navbar .sidebar{
+        width: 72px;
+        display: block; 
+    }      
+     main {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: #F28555;
+        border-radius: 6%;
+        width: 93%;
+        margin-left: 35px;
+        margin-top: 134px;
+        margin-bottom: 56px;
+        padding: 6px        
+    }    .footer {
+        background-color: #f9e3c9;
+        padding: 60px 80px;
+        display: flex;
+        font-size: 40px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 165px;
+    }.navbar {
+        display: flex
+    ;
+        align-items: center;
+        background-color: #f9e3c9;
+        padding: 32px 20px;
+    }
+
+    
+    .information input[type="password"]{
+        padding:2px;
+        display: block;
+        margin-top: 33px;
+        border: none;
+        background-color: #FFE9DE;
+        border-radius: 20px;
+        width: 93%;
+        height: 76px;
+        font-size: 26px;
+        
+    }.information input[type="email"]{
+        padding: 2px;
+        display: block;
+        margin-top: 33px;
+        border: none;
+        background-color: #FFE9DE;
+        border-radius: 20px;
+        width: 93%;
+        height: 76px;
+        font-size: 26px;
+    
+    }.information {
+        background-color: #ffffff;
+        margin: 14% 10%;
+        padding-left: 132px;
+        height: 454px;
+        width: 59%;
+        border-radius: 42px;
+        box-shadow: 10px 10px;
+    }
+
+    .information h3 {
+        font-family: sans-serif;
+        font-size: 240%;
+        
+    }
+    .links {
+        display: flex;
+        margin-left: 33px;
+        margin-top: 10%;
+        justify-content: space-around;
+        width: 243px;
+        height: 45px;
+    }.welcome h3 {
+        color: #fff;
+        font-family: sans-serif;
+        padding-left: 191px;
+        width: 113%;
+        font-size: 45px;
+        margin-top: 13%;
+    
+    }button {
+        border: none;
+        background-color: #F28555;
+        border-radius: 23px;
+        height: 51px;
+        width: 234px;
+        color: #ffffff;
+        font-size: 28px;
+    }.information button {
+        
+        margin-top: 69px;
+        margin-left: 8px;
+        width: 42%;
+    }
+    #motdepass {
+        font-size: 25px;
+        font-family: cursive;
+    }
+    .sidebar1{
+        height: 100%;
+        width: 406px;
+        background-color: #fff;
+        position: fixed;
+        z-index: 1;
+        overflow: auto;
+        display: block;
+        
+    }.sidebar1 .btn_close{
+        background-color: #fff;
+        border: none;
+        width: 30px;
+        display: block;
+        font-size: 50px;
+        color: #000;
+    }.sidebar1 .sidebar_a{
+        display: block;
+        padding: 20px;
+    }.sidebar1 .sidebar_a:hover{
+       background-color: gray;
+       color: #fff;
+    }.sidebar1 .btn_close{
+        background-color: #fff;
+        border: none;
+        width: 30px;
+        display: block;
+        font-size: 50px;
+    }.sidebar1 .sidebar_a{
+        display: block;
+        padding: 20px;
+    }.sidebar1 .sidebar_a:hover{
+       background-color: gray;
+       color: #fff;
+    }.sidebar1 .sidebar_a{
+        text-decoration: none;
+        color: #000;
+        font-size: 40px;
+        padding: 62px;
+        margin-top: 67px;
+
+        }
+}
+ 
+@media screen and (min-width:884px) and (max-width: 1110px) {
+    .navbar {
+        padding: 15px 20px; 
+    }
+
+    .navbar ul {
+        flex-direction: row; 
+        justify-content: center; 
+    }
+
+    .navbar li {
+        margin: 0 10px; 
+    }
+
+    .navbar a {
+        font-size: 16px; 
+    }
+
+    main {
+        width: 81%;
+        margin-left: 5%;
+        margin-top: 45px;
+        margin-bottom: 132px;
+        height: 61%;
+        padding: 33px; 
+    }
+
+    .information {
+        width: 109%;
+        margin: 15% auto;
+        padding: 27px;
+        margin-bottom: 15%;
+    }
+
+    .information input[type="email"],
+    .information input[type="password"] {
+        width: 80%; 
+        margin-top: 15px; 
+    }
+
+    .information button {
+        margin-left: 87px;
+        width: 33%; 
+    }
+
+    .welcome h3 {
+        padding-left: 44px;
+        font-size: 26px; 
+    }
+
+    .footer {
+        padding: 40px 20px; 
+        font-size: 16px; 
+    }
+
+    
+
+    .sidebar1 {
+        width: 300px; 
+    }
+
+    .sidebar1 .sidebar_a {
+        font-size: 30px; 
+        padding: 40px; 
+    }
+
+    .sidebar1 .btn_close {
+        font-size: 40px; 
+    }
+}  

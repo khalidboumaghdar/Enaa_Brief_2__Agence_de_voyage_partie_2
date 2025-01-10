@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Agence De Voyage</title> 
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="sidebar1 " style="display:none" id="mySidebar">
+            <button onclick="C_lose()" class="btn_close">x</button>
+            <a class="sidebar_a" href="#" class="item">Destinations</a>
+            <a class="sidebar_a" href="#" class="item">Activities</a>
+            <a  class="sidebar_a" href="#" class="item">Contact</a>
+          </div>
+        <nav class="navbar">
+            <div >
+                <img src="images/logo de page.png" >
+            </div>
+            <ul>
+                <li><a class="item" href="#">Destinations</a></li>
+                <li><a class="item" href="#">Activities</a></li>
+                <li><a class="item" href="#">Contact</a></li>
+                <li><a class="item" href="#">Creer un Compte</a></li>
+                <li><a onclick="O_pen() " class="sidebar_s" href="#"><img class="sidebar" src="./images/sidebaricon.png" alt="sidebar"></a></li>
+            </ul>
+            
+                <button class="botona" type="button">se connecter</button>
+            
+        </nav>
+    </header>
+        
+
+    <main>
+        <section class="welcome"><h3> Heureux   de vous revoir </h3></section>
+        <section class=" information">  
+            <h3>Connectez-vous</h3>
+            <form>
+                 <input type="email" placeholder="Email" name="E-mail" required >
+                 <input type="password" placeholder="Mot de passe" name="Mot de passe" required>
+            </form>
+            <h5 id="motdepass"><a href="">Mot de passe oblie?</a></h5>
+            <button type="button">Se connecte</button>
+            
+        </section>
+    </main>
+
+    
+      <script>
+        function O_pen() {
+          document.getElementById("mySidebar").style.display = "block";
+        }
+        
+        function C_lose() {
+          document.getElementById("mySidebar").style.display = "none";
+        }
+        </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
