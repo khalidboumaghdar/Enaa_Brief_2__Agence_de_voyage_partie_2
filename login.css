@@ -54,13 +54,14 @@ main {
         margin-top: 59px;
         margin-bottom: 74px;
 
-    
+        overflow-x: hidden;
+
     
 }
 .information{
     
     background-color: #ffffff;
-    margin: 23% 7%;
+    margin: 11% 7%;
     padding: 50px;
     height: 303px;
     width: 200%;
