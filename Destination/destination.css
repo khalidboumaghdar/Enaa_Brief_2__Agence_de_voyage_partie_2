@@ -123,3 +123,53 @@ object-fit: cover;
   color: white;
 }
 
+
+/*popup*/
+
+.model{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #ffffff;
+  width: 500px;
+  max-width: 80%;
+}
+
+.model-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.model-header .title{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.model-header .close-button{
+  font-size: 1.25rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-weight: bold;
+}
+
+.model .body{
+  padding: 10px 15px;
+}
+#overview{
+  position: fixed;
+  /*opacity: 0;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
