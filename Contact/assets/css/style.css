@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+.title {
+    padding-top: 22px;
+    font-family: 'Pacifico', cursive;
+    color: #212529;
+    font-size: 2.5rem;
+}
+
+form{
+    background-color: rgb(244, 245, 247);
+    border-style:none solid solid none ;
+    border-color: rgb(247, 131, 8);
+    border-width: 0 4px 2px;
+    width: 350px;
+    border-radius: 0px 15px 15px 0px;
+    padding-left: -10px;
+    box-shadow: 5px 5px 15px rgba(211, 121, 10, 0.3);
+}
+
+form .content{
+    padding-left: 91px;
+}
+form div {
+    padding-bottom: 12px;
+}
+
+.name input{
+    padding: 10px;
+    border-radius: 10px;
+    border :1px solid black
+}
+.email input{
+    padding: 10px;
+    border-radius: 10px;
+    border :1px solid black
+}
+
+.message textarea{
+    padding: 20px 0px 0px 22px;
+    border-radius: 20px;
+    border :1px solid black
+}
+
+.btn button{
+    border: none;
+    width: 120px;
+    padding: 9px 15px;
+    border-radius: 18px;
+    background: linear-gradient(to right, rgb(234, 234, 28), rgb(235, 134, 10));
+    color: rgb(16, 1, 1);
+    cursor: pointer;
+    
+}
+.btn{
+    padding-left: 27px;
+}
+
+.tous{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+    gap: 10px;
+}
+.tous img{
+    margin-right: -24px;
+}
+.info {
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Permet de passer à plusieurs lignes si nécessaire */
+    text-align: center; /* Centrage du texte sous chaque image */
+}
+.info div {
+    display: flex;
+    flex-direction: column; /* Empile l'image et le texte */
+    align-items: center; /* Centre le contenu */
+    gap: 10px; /* Espacement entre l'image et le texte */
+}
+.info div img{
+    width:23px;
+    height: 23px;
+}
+.info div p {
+    margin: 0;
+    font-size: 16px; 
+    color: #333; 
+}
+/* Pour les écrans de taille moyenne */
+@media (max-width: 768px) {
+    .tous {
+      flex-direction: column; 
+      gap: 15px; 
+    }
+  
+    .tous img {
+      max-height: 200px; 
+    }
+  
+    form {
+      padding: 35px; 
+      margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .tous {
+      gap: 10px;
+      flex-direction: column;
+      padding: 0 20px;
+    }
+
+    .tous img {
+      max-height: 150px;
+    }
+
+    form {
+        padding: 0 40px 0 0;
+      font-size: 14px;
+      margin: 0 10px;
+    }
+
+    input, textarea, button {
+      font-size: 14px;
+      padding: 8px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .info {
+        width: 100%; 
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .info div img {
+        width: 23px; 
+        height: 23px;
+    }
+
+    .info div p {
+        font-size: 14px;
+    }
+}
