@@ -35,7 +35,7 @@
   button{
 
     border: none;
-    background-color: #F28555;
+    background-color: #eb662b;
     border-radius: 23px;
     height: 40px;
     width: 135px;
@@ -58,13 +58,15 @@ main {
     
 }
 .information{
+    
     background-color: #ffffff;
-    margin: 20% 7%;
+    margin: 23% 7%;
     padding: 50px;
-    height: 296px;
-    width: 90%;
+    height: 303px;
+    width: 200%;
     border-radius: 42px;
     box-shadow: 10px 10px;
+    margin-left: -18%;
     
 }.information input[type="email"]{
     padding: 14px;
@@ -102,11 +104,11 @@ main {
     font-family: sans-serif;
 }.welcome h3{
     color: #fff;
-        font-family: sans-serif;
-        padding-left: 191px;
-        width: 113%;
-        font-size: 45px;
-        margin-top: 13%; 
+    font-family: sans-serif;
+    padding-left: 191px;
+    width: 291%;
+    font-size: 45px;
+    margin-top: 13%;
 
 }.navbar .sidebar{
     display: none; 
@@ -208,7 +210,7 @@ main {
     
     }button {
         border: none;
-        background-color: #F28555;
+        background-color: #eb662b;
         border-radius: 23px;
         height: 51px;
         width: 234px;
