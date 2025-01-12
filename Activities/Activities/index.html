@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viatours</title>
+    <link rel="icon" href="./assets/images/bar.png">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="sidebar1 " style="display:none" id="mySidebar">
+            <button onclick="C_lose()" class="btn_close"> &times;</button>
+            <a class="sidebar_a" href="#" class="item">Destinations</a>
+            <a class="sidebar_a" href="#" class="item">Activities</a>
+            <a  class="sidebar_a" href="#" class="item">Contact</a>
+          </div>
+   <nav>
+    <div class="navbar">
+        <ul>
+            <li><img class="imglog" src="./assets/images/logo.png" alt=""></li>
+            <li><a class="none"  href="#">Destinations</a></li>
+            <li><a class="none"  href="#">Activities</a></li>
+            <li><a class="none"   href="#">Contact</a></li>
+            <li><a class="none"  href="#">Créer un compte</a></li>
+            <li><button class="btn1">Se connecter</button></li>
+            <li><a onclick="O_pen() " class="sidebar_s" href="#"><img class="sidebar" src="./assets/images/sidebaricon.png" alt="sidebar"></a></li>
+        </ul>
+    </div>
+</nav>
+</header>
+<section>
+    <div class="div-2">
+        <img class="img" src="./assets/images/Morocco-desert-tour.jpg" alt="">
+    </div>
+    <div class="div-4">
+        <div class="item">
+        <img src="./assets/images/caption (1).jpg" alt="Flexibilité ultime">
+        <h3>Excursion de 3 jours dans le désert de Marrakech aux dunes de Merzouga et balade à dos de chameau</h3>
+        <p>Privé et de luxe <br><br>
+        à partir de <span class="span">105 $</span> par adulte</p>
+        </div>
+        <div class="item">
+        <img class="img-se" src="./assets/images/caption (2).jpg" alt="Expériences mémorables">
+        <h3>De Marrakech à Fès via le désert de Merzouga : circuit de 3 jours dans le Sahara marocain</h3>
+        <p>Circuits de plusieurs jours <br><br>
+        à partir de <span class="span">199 $</span> par adulte (le prix varie en fonction de la taille du groupe).</p>
+        </div>
+        <div class="item">
+        <img class="img-se" src="./assets/images/caption (3).jpg" alt="Qualité">
+        <h3>Circuit de 3 jours de Marrakech au désert de Merzouga : balades à dos de chameau et nuits dans le désert</h3>
+        <p>Privé et de luxe <br><br>
+        <span class="span">105 $</span> par adulte (le prix varie en fonction de la taille du groupe)</p>
+        </div>
+        
+        <div class="item">
+        <img class="img-se" src="./assets/images/caption.jpg" alt="Assistance primée">
+        <h3>Circuit de 3 jours de Marrakech au désert de Merzouga avec camp de luxe</h3>
+        <p>Circuits de plusieurs jours <br><br>
+        à partir de <span class="span">136 $</span> par adulte</p>
+        </div>
+        </div>
+</section>
+<footer>
+    <div class="footer">
+        <h3>Contact : </h3>
+        <h4>N 433 Immeubles 3 Rue Zohour, Béni Mellal</h4>
+        <h4>contact@viatours.com</h4>
+    </div>
+</footer>
+   
+<script>
+    function O_pen() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function C_lose() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+</body>
+</html>
